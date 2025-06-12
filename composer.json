@@ -1,0 +1,14 @@
+{
+    "name": "iseoandmarketing/ai-guardian",
+    "description": "AI powered security plugin for WordPress",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "AI_Guardian\\": "includes/"
+        }
+    }
+}
